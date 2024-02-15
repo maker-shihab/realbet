@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Spartan MB';
+    src: url('SpartanMB-Regular.woff2') format('woff2'),
+        url('SpartanMB-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan MB';
+    src: url('SpartanMB-Thin.woff2') format('woff2'),
+        url('SpartanMB-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan MB';
+    src: url('SpartanMB-ExtraBold.woff2') format('woff2'),
+        url('SpartanMB-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan MB';
+    src: url('SpartanMB-Black.woff2') format('woff2'),
+        url('SpartanMB-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan MB';
+    src: url('SpartanMB-SemiBold.woff2') format('woff2'),
+        url('SpartanMB-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan MB';
+    src: url('SpartanMB-Bold.woff2') format('woff2'),
+        url('SpartanMB-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan MB';
+    src: url('SpartanMB-Light.woff2') format('woff2'),
+        url('SpartanMB-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
