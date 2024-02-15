@@ -1,0 +1,17 @@
+.cta {
+  padding: 40px 0;
+  border: 2px solid var(--primary-color);
+  border-left: none;
+  border-right: none;
+  margin-top: 30px;
+}
+.socail {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.socail img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

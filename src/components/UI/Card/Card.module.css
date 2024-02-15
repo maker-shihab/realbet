@@ -1,0 +1,79 @@
+.card {
+  display: block;
+}
+.tealCard {
+  border-color: var(--teal-color);
+  color: var(--teal-color);
+}
+.cardTitle {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.cardBody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  border: 2px solid transparent;
+  padding: 20px 30px;
+  min-height: 250px;
+  height: 100%;
+  max-height: 260px;
+}
+.cardThumb {
+  padding: 25px;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.tealCard .cardBody {
+  border-color: var(--teal-color);
+  color: var(--teal-color);
+}
+.purpleCard .cardBody {
+  border-color: var(--purple-color);
+  color: var(--purple-color);
+}
+.cardThumb {
+  border-color: transparent;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links li {
+  position: relative;
+}
+.links li::before {
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 12px);
+  content: ">";
+  font-size: 18px;
+  color: var(--teal-color);
+  font-weight: 600;
+}
+.links li a {
+  display: block;
+  color: var(--teal-color);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 15px;
+  padding-left: 20px;
+}
+.links li:not(:last-child) a {
+  border-bottom: 1px solid var(--teal-color);
+}
+.purpleCard .links li a {
+  color: var(--purple-color);
+  border-color: var(--purple-color);
+}
+.tealCard .cardTitle {
+  color: var(--teal-color);
+}
+.purpleCard .cardTitle {
+  color: var(--purple-color);
+}
+.purpleCard .links li::before {
+  color: var(--purple-color);
+}

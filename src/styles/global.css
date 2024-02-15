@@ -64,7 +64,7 @@
 :root {
   --primary-color: #3e85c6;
   --purple-color: #684fa1;
-  --soft-green: #339999;
+  --teal-color: #339999;
   --red-color: #a80000;
   --soft-gray: #494949;
 }
@@ -130,9 +130,180 @@ button {
   cursor: pointer;
 }
 /* Common Css */
+.container {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container-full {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn {
+  padding: 12px 30px;
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.3s all ease-in;
+  border: 2px solid transparent;
+}
+.btn_primary {
+  color: #fff;
+  background: var(--primary-color);
+}
+.btn_primary:hover {
+  opacity: 0.8;
+}
+.btn_primary_outline {
+  border-color: var(--primary-color);
+  background: transparent;
+  color: var(--primary-color);
+}
+.btn_primary_outline:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+.btn_purple {
+  background: var(--purple-color);
+  color: #fff;
+}
+.btn_purple:hover {
+  opacity: 0.8;
+}
+.btn_purple_outline {
+  border-color: var(--purple-color);
+  color: var(--purple-color);
+  background: transparent;
+}
+.btn_purple_outline:hover {
+  color: #fff;
+  background: var(--purple-color);
+}
+.btn_teal {
+  background: var(--teal-color);
+  color: #fff;
+}
+.btn_teal:hover {
+  opacity: 0.8;
+}
+.btn_teal_outline {
+  background: transparent;
+  color: var(--teal-color);
+  border-color: var(--teal-color);
+}
+.btn_teal_outline:hover {
+  background: var(--teal-color);
+  color: #fff;
+  border-color: var(--teal-color);
+}
+.btn_red {
+  background: var(--red-color);
+  color: #fff;
+}
+.btn_red:hover {
+  opacity: 0.8;
+}
+.btn_red_outline {
+  background: var(--red-color);
+  color: #fff;
+}
+.btn_red_outline:hover {
+  background: var(--red-color);
+  color: #fff;
+}
+/* Main Css here */
 body {
   font-family: "Spartan MB";
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
+}
+/* Betting content */
+.bettingContent {
+  padding: 60px 0;
+}
+.bettingItems {
+  padding-bottom: 45px;
+}
+.bettingHead {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 20px;
+  padding-bottom: 40px;
+}
+.bettingHead_img {
+  height: 100%;
+  width: 120px;
+  object-fit: contain;
+  transform: translateY(10px);
+}
+.bettingHead_text {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.bettingCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+/* Betting content */
+/* download_app_wrapper */
+.download_app {
+  padding-bottom: 60px;
+}
+.download_app_wrapper {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  column-gap: 30px;
+  align-items: flex-end;
+  border: 2px solid var(--primary-color);
+  width: 100%;
+  padding: 25px;
+}
+.download_app_illustration {
+  width: 180px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.download_app_illustration img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.download_app_text {
+  text-align: right;
+}
+.download_app_text h3 {
+  text-align: left;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 12%;
+  line-height: 1.6;
+  padding-bottom: 10px;
+}
+/* organization */
+.organization {
+  padding: 60px 0;
+  border: 2px solid var(--primary-color);
+  border-left: none;
+  border-right: none;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.organization__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
 }
