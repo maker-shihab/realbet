@@ -1,11 +1,11 @@
 import React from 'react';
 
-const About = () => {
+const SectionHead = () => {
   return (
     <div>
-      Hello About
+      
     </div>
   );
 };
 
-export default About;
+export default SectionHead;
