@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <footer className={styles.footer}>
-      <div className="contaienr">
+      <div className="container">
         <div className={styles.wrapper}>
           <nav className={styles.nav}>
             <ul>
