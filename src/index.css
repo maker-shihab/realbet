@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Spartan MB";
+  src: url("./assets/styles/fonts/SpartanMB-Regular.woff2") format("woff2"),
+    url("./assets/styles/fonts/SpartanMB-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Spartan MB";
+  src: url("./assets/styles/fonts/SpartanMB-Thin.woff2") format("woff2"),
+    url("./assets/styles/fonts/SpartanMB-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Spartan MB";
+  src: url("./assets/styles/fonts/SpartanMB-ExtraBold.woff2") format("woff2"),
+    url("./assets/styles/fonts/SpartanMB-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Spartan MB";
+  src: url("./assets/styles/fonts/SpartanMB-Black.woff2") format("woff2"),
+    url("./assets/styles/fonts/SpartanMB-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Spartan MB";
+  src: url("./assets/styles/fonts/SpartanMB-SemiBold.woff2") format("woff2"),
+    url("./assets/styles/fonts/SpartanMB-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Spartan MB";
+  src: url("./assets/styles/fonts/SpartanMB-Bold.woff2") format("woff2"),
+    url("./assets/styles/fonts/SpartanMB-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Spartan MB";
+  src: url("./assets/styles/fonts/SpartanMB-Light.woff2") format("woff2"),
+    url("./assets/styles/fonts/SpartanMB-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "Spartan MB";
+}
+.menuItemActive {
+  background: red;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: -25px;
+  left: calc(50% - 50%);
+}
+.mobileNavPoput a.active {
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

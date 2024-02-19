@@ -1,11 +1,11 @@
-import cardThamb7 from '../images/cardThumb/casino-2.svg';
-import cardThamb3 from '../images/cardThumb/casino.svg';
-import cardThamb8 from '../images/cardThumb/e-sports-2.svg';
-import cardThamb4 from '../images/cardThumb/e-sports.svg';
-import cardThamb5 from '../images/cardThumb/sports-2.svg';
-import cardThamb1 from '../images/cardThumb/sports.svg';
-import cardThamb6 from '../images/cardThumb/virtual-2.svg';
-import cardThamb2 from '../images/cardThumb/virtual.svg';
+import cardThamb7 from '../../src/assets/images/cardThumb/casino-2.svg';
+import cardThamb3 from '../../src/assets/images/cardThumb/casino.svg';
+import cardThamb8 from '../../src/assets/images/cardThumb/e-sports-2.svg';
+import cardThamb4 from '../../src/assets/images/cardThumb/e-sports.svg';
+import cardThamb5 from '../../src/assets/images/cardThumb/sports-2.svg';
+import cardThamb1 from '../../src/assets/images/cardThumb/sports.svg';
+import cardThamb6 from '../../src/assets/images/cardThumb/virtual-2.svg';
+import cardThamb2 from '../../src/assets/images/cardThumb/virtual.svg';
 
 const sportBook = [
   {
