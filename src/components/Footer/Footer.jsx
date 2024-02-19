@@ -1,6 +1,4 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './Footer.module.css';
 
 const Footer = () => {
   const date = new Date();
@@ -8,22 +6,22 @@ const Footer = () => {
 
 
   return (
-    <footer className={styles.footer}>
-      <div className="container">
-        <div className={styles.wrapper}>
-          <nav className={styles.nav}>
-            <ul>
-              <li><Link to={'/'}>Terms & Conditions</Link></li>
-              <li><Link to={'/'}>Responsible Gambling</Link></li>
-              <li><Link to={'/'}>Privacy Policy</Link></li>
-              <li><Link to={'/'}>Cookie Policy</Link></li>
-              <li><Link to={'/'}>Contact Us</Link></li>
-              <li><Link to={'/'}>FAQ</Link></li>
-              <li><Link to={'/'}>Affiliates</Link></li>
+    <footer className="bg-gray-200 py-8 pb-28 lg:pb-8 px-2 sm:px-0">
+      <div className="container mx-auto">
+        <div className="text-center">
+          <nav>
+            <ul className="flex flex-wrap justify-center gap-4">
+              <li><Link to={'/'} className="text-black font-semibold hover:underline">Terms & Conditions</Link></li>
+              <li><Link to={'/'} className="text-black font-semibold hover:underline">Responsible Gambling</Link></li>
+              <li><Link to={'/'} className="text-black font-semibold hover:underline">Privacy Policy</Link></li>
+              <li><Link to={'/'} className="text-black font-semibold hover:underline">Cookie Policy</Link></li>
+              <li><Link to={'/'} className="text-black font-semibold hover:underline">Contact Us</Link></li>
+              <li><Link to={'/'} className="text-black font-semibold hover:underline">FAQ</Link></li>
+              <li><Link to={'/'} className="text-black font-semibold hover:underline">Affiliates</Link></li>
             </ul>
           </nav>
-          <p className={styles.cp}>
-            Copyright &copy; {currentYear} <Link to={"/"}>realbet.ng</Link>
+          <p className="text-gray-500 text-sm mt-4">
+            Copyright &copy; {currentYear} <Link to={"/"} className="text-gray-500 hover:text-blue-500">realbet.ng</Link>
           </p>
         </div>
       </div>
